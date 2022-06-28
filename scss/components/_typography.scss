@@ -11,7 +11,6 @@
         color:$orange;
         text-transform: none;
         font-family: 'Poppins', sans-serif;
-
     }
 
     &--description {
@@ -36,3 +35,13 @@
         font-family: 'Poppins', sans-serif;
     }
 }
+    //HEADING LINE
+    .heading-line::before {
+        content:"";
+        width: 2rem;
+        height: 0.1rem;
+        display: block;
+        margin: 0 auto;
+        background-color: $orange;
+    }
+

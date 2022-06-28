@@ -10135,6 +10135,15 @@ textarea.form-control-lg {
   font-family: "Poppins", sans-serif;
 }
 
+.heading-line::before {
+  content: "";
+  width: 2rem;
+  height: 0.1rem;
+  display: block;
+  margin: 0 auto;
+  background-color: #fd7e14;
+}
+
 .menu {
   background: #fff;
 }
@@ -10152,6 +10161,23 @@ textarea.form-control-lg {
   width: 100%;
   height: 100%;
   background-color: #f8f9fa;
+}
+
+.main-program {
+  padding: 0 0 5rem 0;
+  background-color: #000;
+}
+.main-program__program-box {
+  max-width: 100%;
+  height: 15rem;
+  margin-bottom: 2rem;
+  padding: 0.7rem;
+  text-align: center;
+  position: relative;
+}
+.main-program__program-box img {
+  height: 100%;
+  background-color: #adb5bd;
 }
 
 /*# sourceMappingURL=style.css.map */
