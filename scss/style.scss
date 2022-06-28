@@ -1,0 +1,14 @@
+@use 'custom';
+
+
+//import components
+@use 'components/_buttons';
+
+//import sections
+@use 'sections/navbar';
+@use 'sections/intro';
+@use 'sections/main-program';
+@use 'sections/fectured';
+@use 'sections/partner';
+@use 'sections/footer';
+
