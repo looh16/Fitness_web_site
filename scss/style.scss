@@ -2,7 +2,8 @@
 
 
 //import components
-@use 'components/_buttons';
+@use 'components/buttons';
+@use 'components/typography';
 
 //import sections
 @use 'sections/navbar';
@@ -11,4 +12,5 @@
 @use 'sections/fectured';
 @use 'sections/partner';
 @use 'sections/footer';
+
 
