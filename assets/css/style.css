@@ -10180,4 +10180,21 @@ textarea.form-control-lg {
   background-color: #adb5bd;
 }
 
+.partner {
+  padding: 0 0 5rem 0;
+  background-color: #000;
+}
+.partner__companys-box {
+  max-width: 100%;
+  height: 5rem;
+  margin-bottom: 2rem;
+  padding: 0.7rem;
+  text-align: center;
+  position: relative;
+}
+.partner__companys-box img {
+  height: 100%;
+  background-color: #adb5bd;
+}
+
 /*# sourceMappingURL=style.css.map */
