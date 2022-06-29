@@ -42,7 +42,7 @@
 
         &--subtitle {
             font-size: 0.8rem;
-            color: $gray-600;
+            color: $gray;
             text-decoration: none;
 
             @include media-breakpoint-up(sm) {
@@ -58,12 +58,12 @@
     background-color: $black;
 
     &__copyright {
-        color: $gray-600;
+        color: $gray;
         font-weight: 400;
         
 
         a {
-            color: $gray-300;
+            color: $gray;
             text-decoration: none;
 
             &:hover {
