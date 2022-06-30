@@ -24,4 +24,31 @@
       }
 }
 
+.barMenu {
+    width: 100%;
+    background-color: $black;
+    overflow: auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+     a {
+        margin-right: 1rem;
+        color: $gray;
+        text-decoration: none;
+        font-family: 'COCOGOOSE', sans-serif;
+        font-size: small;
+
+         .i {
+            margin: 21rem;
+            
+        }
+
+        &:hover {
+            color: $orange;
+          }
+        
+    }
+}
+
 

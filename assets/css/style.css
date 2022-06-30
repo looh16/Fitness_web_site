@@ -10164,6 +10164,28 @@ textarea.form-control-lg {
   color: #EC5242;
 }
 
+.barMenu {
+  width: 100%;
+  background-color: #272A31;
+  overflow: auto;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.barMenu a {
+  margin-right: 1rem;
+  color: #D3D3D3;
+  text-decoration: none;
+  font-family: "COCOGOOSE", sans-serif;
+  font-size: small;
+}
+.barMenu a .i {
+  margin: 21rem;
+}
+.barMenu a:hover {
+  color: #EC5242;
+}
+
 .intro-section {
   padding: 10rem 0 0 0;
   width: 100%;
