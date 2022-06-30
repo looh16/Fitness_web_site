@@ -1,47 +1,46 @@
 @use '../custom' as *;
 
 .display-2 {
-    margin-bottom: 1rem;
-    text-transform: capitalize;
-    font-family: 'COCOGOOSE', sans-serif;    
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+  font-family: 'COCOGOOSE', sans-serif;
 
-    &--intro {
-        font-size: 4rem;
-        display: block;
-        color:$orange;
-        text-transform: none;
-        font-family: 'COCOGOOSE', sans-serif;
-    }
+  &--intro {
+    font-size: 4rem;
+    display: block;
+    color: $orange;
+    text-transform: none;
+    font-family: 'COCOGOOSE', sans-serif;
+  }
 
-    &--description {
-        display: inline-block;
-        font-weight: 700;
-        margin-top: 1.2rem;
-    }
+  &--description {
+    display: inline-block;
+    font-weight: 700;
+    margin-top: 1.2rem;
+  }
 
-    &--schedule {
-        font-size: 2rem;
-        display: inline-block;
-        color:$black;
-        text-transform: none;
-        font-family: 'COCOGOOSE', sans-serif;                             
-    }
+  &--schedule {
+    font-size: 2rem;
+    display: inline-block;
+    color: $black;
+    text-transform: none;
+    font-family: 'COCOGOOSE', sans-serif;
+  }
 
-    &--locale {
-        font-size: 1rem;
-        display: block;
-        color:$gray-900;
-        text-transform: none;
-        font-family: 'COCOGOOSE', sans-serif;                                 
-    }
+  &--locale {
+    font-size: 1rem;
+    display: block;
+    color: $gray-900;
+    text-transform: none;
+    font-family: 'COCOGOOSE', sans-serif;
+  }
 }
-    //HEADING LINE
-    .heading-line::before {
-        content:"";
-        width: 2rem;
-        height: 0.1rem;
-        display: block;
-        margin: 0 auto;
-        background-color: $orange;
-    }
-
+//HEADING LINE
+.heading-line::before {
+  content: "";
+  width: 2rem;
+  height: 0.1rem;
+  display: block;
+  margin: 0 auto;
+  background-color: $orange;
+}
