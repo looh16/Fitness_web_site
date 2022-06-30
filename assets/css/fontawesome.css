@@ -18,6 +18,7 @@
 
 .fab,
 .fa-brands {
+  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
   font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
@@ -1911,6 +1912,7 @@
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  * Copyright 2022 Fonticons, Inc.
  */
+/* stylelint-disable-next-line no-duplicate-selectors */
 :root,
 :host {
   --fa-font-regular: normal 400 1em/1 "Font Awesome 6 Free";
@@ -1926,6 +1928,7 @@
 
 .far,
 .fa-regular {
+  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
   font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
@@ -10154,6 +10157,7 @@ readers do not read off random characters that represent icons */
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  * Copyright 2022 Fonticons, Inc.
  */
+/* stylelint-disable-next-line no-duplicate-selectors */
 :root,
 :host {
   --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Free";
@@ -10169,6 +10173,7 @@ readers do not read off random characters that represent icons */
 
 .fas,
 .fa-solid {
+  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
   font-family: "Font Awesome 6 Free";
   font-weight: 900;
 }
