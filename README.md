@@ -5,7 +5,7 @@
 ## Built With
 
 - HTML
-- CSS
+- BOOTSTRATP
 - JAVASCRIPT
 
 To get a local copy up and running follow these simple example steps.
@@ -30,6 +30,8 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: https://twitter.com/custodiolanga1
 - LinkedIn: https://www.linkedin.com/in/custodio-serafim-2a318a23a
 
+## **Original Designer Idea By**
+ - Cindy Shin: https://www.behance.net/gallery/29845175/CC-Global-Summit-2015
 
 ## Show your support
 
