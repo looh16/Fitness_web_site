@@ -10262,7 +10262,7 @@ textarea.form-control-lg {
 .footer {
   padding-top: 1rem;
   margin-bottom: 3rem;
-  background-color: #fff;
+  background-color: #D3D3D3;
 }
 
 .contact-box {
@@ -10270,7 +10270,7 @@ textarea.form-control-lg {
 }
 .contact-box__icon {
   width: 2rem;
-  stroke: #0d6efd;
+  stroke: #D3D3D3;
   padding-top: 0.5rem;
 }
 @media (min-width: 576px) {
@@ -10315,7 +10315,7 @@ textarea.form-control-lg {
   text-decoration: none;
 }
 .footer-bottom__copyright a:hover {
-  color: #0d6efd;
+  color: #EC5242;
   text-decoration: underline;
 }
 

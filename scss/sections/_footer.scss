@@ -5,7 +5,7 @@
 .footer {
     padding-top: 1rem;
     margin-bottom: 3rem;
-    background-color: $white;
+    background-color: $gray;
 }
 
 // STYLE THE CONTACT-BOX CONTENT 
@@ -14,7 +14,7 @@
 
     &__icon {
        width: 2rem;
-       stroke: $primary; 
+       stroke: $gray; 
        padding-top: 0.5rem;
 
        @include media-breakpoint-up(sm) {
@@ -67,7 +67,7 @@
             text-decoration: none;
 
             &:hover {
-                color: $primary;
+                color: $orange;
                 text-decoration: underline;
              
             }
