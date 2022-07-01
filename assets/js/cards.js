@@ -1,5 +1,7 @@
 const container = document.getElementById('cardContent');
 const parentDir = '../images/fitness/';
+let htmlCard = '';
+let pastHtmlCard = '';
 
 const cards = [
   {
@@ -28,7 +30,16 @@ const cards = [
   },
 ];
 
-let htmlCard = '';
+const pastCards = [
+  {
+    img: `${parentDir}one.jpg`,
+    title: 'Work hard in silence. Let success be your noise -Frank Ocean',
+  },
+  {
+    img: `${parentDir}two.jpg`,
+    title: 'I try and groom myself, be it through fitness or dance. -Yami Gautam',
+  },
+];
 
 cards.forEach((card) => {
   htmlCard
@@ -47,3 +58,4 @@ cards.forEach((card) => {
 });
 
 container.innerHTML = htmlCard;
+

@@ -22,6 +22,10 @@
       color: $orange;
     }
   }
+
+  .nav-link .active {
+    color: $black;
+  }
 }
 
 .barMenu {

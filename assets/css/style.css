@@ -23,7 +23,7 @@
   --bs-gray-200: #e9ecef;
   --bs-gray-300: #dee2e6;
   --bs-gray-400: #ced4da;
-  --bs-gray-ss 500: #adb5bd;
+  --bs-gray-ss-500: #adb5bd;
   --bs-gray-600: #6c757d;
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
@@ -10103,6 +10103,14 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.display-6 {
+  margin-bottom: 1rem;
+  text-transform: capitanoelize;
+  font-family: "COCOGOOSE", sans-serif;
+  color: #ec5242;
+  width: fit-content;
+}
+
 .display-2 {
   margin-bottom: 1rem;
   text-transform: capitalize;
@@ -10163,6 +10171,9 @@ textarea.form-control-lg {
 .menu .nav-link:hover {
   color: #ec5242;
 }
+.menu .nav-link .active {
+  color: #272a31;
+}
 
 .barMenu {
   width: 100%;
@@ -10194,6 +10205,26 @@ textarea.form-control-lg {
   background-image: url("/images/fitness/sprint.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.about-intro {
+  padding: 10rem 0 0 0;
+  margin-top: 2rem;
+  width: 100%;
+  height: 100%;
+  background-color: #d3d3d3;
+}
+
+.about-logo {
+  padding: 0.5rem 0 0 0;
+  margin-top: 2rem;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+
+.past {
+  background-color: #d3d3d3;
 }
 
 .main-program {
@@ -10281,7 +10312,7 @@ textarea.form-control-lg {
 
 .footer {
   padding-top: 1rem;
-  margin-bottom: 3rem;
+  margin-bottom: 0;
   background-color: #d3d3d3;
 }
 
