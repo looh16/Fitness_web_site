@@ -1,11 +1,13 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
+# Capstone Project
 
+>Skeleton of the Desktop and mobile version.
 
 ## Built With
 
 - HTML
-- CSS
+- BOOTSTRATP
 - JAVASCRIPT
 
 To get a local copy up and running follow these simple example steps.
@@ -22,7 +24,8 @@ To get a local copy up and running follow these simple example steps.
 
 - open the index.html file located in the project root in the browser
 
-
+## online version
+- https://looh16.github.io/project_capstone.github.io/index.html
 
 ## 👤 **Author**
 
@@ -30,16 +33,14 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: https://twitter.com/custodiolanga1
 - LinkedIn: https://www.linkedin.com/in/custodio-serafim-2a318a23a
 
-
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Cindy Shin: https://www.behance.net/gallery/29845175/CC-Global-Summit-2015
+
 
 ## 📝 License
 
