@@ -10197,6 +10197,16 @@ textarea.form-control-lg {
   color: #ec5242;
 }
 
+.navbar-left {
+  float: left;
+  margin-left: 15px;
+}
+
+@media (max-width: 768px) {
+  .navbar-brand {
+    display: none;
+  }
+}
 .intro-section {
   padding: 10rem 0 0 0;
   width: 100%;
@@ -10332,7 +10342,9 @@ textarea.form-control-lg {
 }
 
 .footer-bottom {
-  background-color: #272a31;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
 }
 .footer-bottom__copyright {
   color: #d3d3d3;
@@ -10345,6 +10357,10 @@ textarea.form-control-lg {
 .footer-bottom__copyright a:hover {
   color: #ec5242;
   text-decoration: underline;
+}
+.footer-bottom img {
+  width: 3rem;
+  height: 2rem;
 }
 
 .back-to-top {

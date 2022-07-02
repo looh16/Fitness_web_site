@@ -52,3 +52,14 @@
     }
   }
 }
+
+.navbar-left {
+  float: left;
+  margin-left: 15px;
+}
+
+@media (max-width: 768px) {
+  .navbar-brand {
+   display: none;
+  }
+}
