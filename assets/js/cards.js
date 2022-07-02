@@ -6,27 +6,33 @@ let pastHtmlCard = '';
 const cards = [
   {
     img: `${parentDir}one.jpg`,
-    title: 'Work hard in silence. Let success be your noise -Frank Ocean',
+    title: 'Work',
+    description:'Work hard in silence. Let success be your noise -Frank Ocean'
   },
   {
     img: `${parentDir}two.jpg`,
-    title: 'I try and groom myself, be it through fitness or dance. -Yami Gautam',
+    title: 'Fitness or Dance',
+    description:'I try and groom myself, be it through fitness or dance. -Yami Gautam'
   },
   {
     img: `${parentDir}three.jpg`,
-    title: 'Fitness has nothing to do with age. -Virender Sehwag',
+    title: 'Age',
+    description:'Fitness has nothing to do with age. -Virender Sehwag',
   },
   {
     img: `${parentDir}four.jpg`,
-    title: 'In fitness, there are no short cuts. It involves immense discipline and hard work. -Mahesh Babu',
+    title: 'Discipline',
+    description:'In fitness, there are no short cuts. It involves immense discipline and hard work. -Mahesh Babu',
   },
   {
-    img: `${parentDir}happy.jpg`,
-    title: 'You can always improve your fitness if you keep training. -Pastor Maldonad',
+    img: `${parentDir}five.jpg`,
+    title: 'Training',
+    description:'You can always improve your fitness if you keep training. -Pastor Maldonad',
   },
   {
     img: `${parentDir}seven.jpg`,
-    title: 'I understand only three things – films, fitness, and food. -Rakul Preet Singh',
+    title: 'Three Things',
+    description:'I understand only three things – films, fitness, and food. -Rakul Preet Singh',
   },
 ];
 
@@ -44,16 +50,19 @@ const pastCards = [
 cards.forEach((card) => {
   htmlCard
   += `
-  <div class="col-lg-4 col-md-6">
-    <div class="activities-box shadow">
-      <img src="${card.img}" alt="activities images" title="image 1" class="img-fluid">
-      <div class="activities-info">
-        <div class="caption">
-          <h5> ${card.title}</h5>
-        </div>
+  <div class="card mb-3" style="max-width: 540px; border: none;">
+  <div class="row g-0 activities-box">
+    <div class="col-md-4">
+      <img src="${card.img}" class="img-fluid rounded-start" alt="activities images">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title activities-title"> ${card.title}</h5>
+        <p class="card-text activities-description"> ${card.description}</p>
       </div>
     </div>
   </div>
+</div>
 `;
 });
 

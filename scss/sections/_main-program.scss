@@ -3,7 +3,6 @@
 .main-program {
   padding: 0 0 5rem 0;
   background-color: $black;
-  margin-bottom: 3rem;
 }
 .cards-program {
   background-color: $gray;
@@ -13,4 +12,6 @@
   margin: 0.2rem;
   display: flex;
   justify-content: center;
+  backdrop-filter: contrast(0.8);
+  cursor: pointer;
 }
