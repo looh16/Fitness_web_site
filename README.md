@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Capstone Project
+# Fitness
 
->Skeleton of the Desktop and mobile version.
+>Skeleton of the desktop and mobile version web site.
 
 ## Built With
 
