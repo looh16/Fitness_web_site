@@ -25,7 +25,7 @@ To get a local copy up and running follow these simple example steps.
 - open the index.html file located in the project root in the browser
 
 ## online version
-- https://looh16.github.io/project_capstone.github.io/index.html
+- https://looh16.github.io/fitness.github.io/
 
 ## 👤 **Author**
 
